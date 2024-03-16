@@ -1,0 +1,31 @@
+/* src/components/StoryCard.css */
+
+.story-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.story-card h2 {
+  margin: 0 0 10px 0;
+}
+
+.story-card p {
+  margin: 0 0 20px 0;
+}
+
+.story-card button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.story-card button:hover {
+  background-color: #0056b3;
+}

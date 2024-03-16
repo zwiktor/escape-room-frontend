@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #333;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  color: #fff;
+}
+
+.login-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
